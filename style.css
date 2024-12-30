@@ -1,0 +1,310 @@
+body{
+    background-color: #e3de8f;
+}
+
+#Title{
+    font-size: 50px;
+
+}
+
+
+    
+#Bar{
+    margin: -10%;
+    padding-top: 25%;
+    padding: 10%;
+    background-color: #D5B942;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    padding-bottom: 10px;
+    
+}
+
+#ImageBarButton{
+    width: 40%;
+    height: 40%;
+    justify-self: left;
+    vertical-align: middle;
+
+}
+
+#BarButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 10%;
+    max-height: 20%;
+    
+}
+
+
+
+
+
+
+
+
+
+#BarButtonLink #BarButtonText:link{
+    font-size: 20px;
+    color: rgb(0, 255, 0);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#Test{
+    text-decoration: underline;
+
+}
+
+#BarButtonLink #BarButtonText:visited{
+    color: red;
+    text-decoration:none;
+}
+
+#BarButtonLink #BarButtonText:hover{
+    color: black
+}
+
+#BarButtonLink  {
+    text-decoration: none !important;
+    padding:10px 0px;
+    color: black;
+}
+
+#Info{
+    margin-top: 10%;
+}
+
+#ContentDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15%;
+    border-radius: 30px;
+
+}
+
+#ContentCheese{
+    margin-left: 1%;
+    background-color: #D5B942;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+#ContentRandom1{
+    margin-left: 1%;
+    background-image: url('img/remix_conclusion_background.png');
+    background-size: cover;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+#ContentRandom2{
+    margin-left: 1%;
+    background-color: rgb(215, 173, 201);
+    background-size: cover;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+#ContentRandom3{
+    margin-left: 1%;
+    background: linear-gradient(90deg, rgba(7,22,54,1) 0%, rgba(0,121,171,1) 49%, rgba(0,147,108,1) 100%);
+    background-size: cover;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+#ImageCheese{
+    order: 2;
+    align-self: flex-start;
+    float: left;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 15%;
+    margin-right: 10px;
+}
+.CheeseText{
+    order: 1;
+    margin: 10px;
+}   
+.CheeseText p{
+    font-size: 30px;
+    padding: 0px;
+    text-align: justify;
+    align-items: center;
+
+}
+
+
+
+#ImageRandom{
+    order: 2;
+    align-self: flex-start;
+    float: left;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 15%;
+    margin-right: 10px;
+}
+.RandomText{
+    order: 1;
+    margin: 10px;
+}   
+.RandomText p{
+    font-size: 30px;
+    padding: 0px;
+    text-align: justify;
+    align-items: center;
+}
+
+
+
+#ContentRandom1 p{
+    color: white;
+}
+#ContentRandom1 h2{
+    color: white;
+}
+#ContentRandom3 p{
+    color: white;
+}
+#ContentRandom3 h2{
+    color: white;
+}
+
+
+
+
+
+body{
+    background: url('img/fond.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+.button-bar {
+  background-color: #563b00;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+.button-bar:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+#Info h1{
+    font-size: 50px;
+}
+#Info p{
+    font-size: 30px;
+}
+
+#CV{
+    display: flex;
+    justify-content: center;
+    margin-top: 11%;
+    background-color: #ffdd57;
+    border-radius: 30px;
+    width: 90%;
+    height:  1000px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#CV h1{
+    order: 0;
+    
+}
+
+#CvConnect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9cd2fef;
+    border-radius: 20px;
+    padding: 20px;
+    width: 20%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#CvConnect h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+#CvConnect label {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+#CvConnect input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 80%;
+}
+
+#connect-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #563b00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#connect-button:hover {
+    background-color: #422800;
+}
+
+
+#CvContent p {
+    margin-top: 20px;
+    font-size: 32px;
+    color: #333;
+}
+
