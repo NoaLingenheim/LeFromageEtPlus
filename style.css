@@ -24,11 +24,11 @@ body{
 
     #ContentRandom4 h2{
         color: #333;
-        color: white;
+        color: rgb(255, 255, 255);
     }
     #ContentRandom4 a{
         color: #333;
-        color: white;
+        color: rgb(158, 126, 227);
     }
 #Bar{
     margin: -10%;
