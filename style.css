@@ -8,7 +8,28 @@ body{
 }
 
 
-    
+    #ContentRandom4{
+        margin-left: 1%;
+        background-image: url('img/remix_conclusion_background.png');
+        background-size: cover;
+        color: white;
+        border-radius: 30px;
+        margin-bottom: 20px;
+    }
+
+    #ContentRandom4 p{
+        color: #333;
+        color: white;
+    }
+
+    #ContentRandom4 h2{
+        color: #333;
+        color: white;
+    }
+    #ContentRandom4 a{
+        color: #333;
+        color: white;
+    }
 #Bar{
     margin: -10%;
     padding-top: 25%;
